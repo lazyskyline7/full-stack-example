@@ -1,11 +1,11 @@
 {
   "name": "full-stack-example",
-  "author": "Lance Hsu <lancehsu12@gmail.com>",
+  "author": "Lance Hsu <lazy.skyline7@gmail.com>",
   "version": "1.0.0",
   "description": "An example of full-stack development using React-Redux & Node Express & MongoDB",
   "main": "index.js",
   "engines": {
-    "node": "14"
+    "node": ">=22"
   },
   "license": "MIT",
   "scripts": {
@@ -38,7 +38,7 @@
     "mongoose": "^8.9.5",
     "mongoose-currency": "^0.2.0",
     "morgan": "^1.10.0",
-    "multer": "^1.3.1",
+    "multer": "^2.0.2",
     "passport": "^0.6.0",
     "passport-facebook-token": "^3.3.0",
     "passport-jwt": "^4.0.0",
