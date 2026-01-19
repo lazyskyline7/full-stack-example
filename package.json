@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "cd ./client && npm install && npm run build && cp -r build/* ../build/",
+    "build": "cd ./client && npm install && npm run build && mkdir -p ../build && mv build/* ../build/",
     "start": "node ./bin/www"
   },
   "repository": {
@@ -36,7 +36,7 @@
     "install": "^0.13.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^8.9.5",
-    "mongoose-currency": "^0.2.0",
+    "mongoose-currency": "^0.3.0",
     "morgan": "^1.10.0",
     "multer": "^2.0.2",
     "passport": "^0.6.0",
@@ -47,8 +47,8 @@
     "session-file-store": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0"
   }
 }

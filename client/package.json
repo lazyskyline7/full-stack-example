@@ -19,9 +19,9 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "rsbuild dev",
-    "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": [
     ">0.2%",
@@ -30,7 +30,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@rsbuild/core": "^1.7.1",
-    "@rsbuild/plugin-react": "^1.4.0"
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1",
+    "vite-plugin-node-polyfills": "^0.25.0"
   }
 }
